@@ -1,0 +1,345 @@
+2023-07-19 09:58:05 info : Received ${req.method} request to ${req.url}
+2023-07-19 09:58:23 info : Received ${req.method} request to ${req.url}
+2023-07-19 09:59:08 info : Received ${req.method} request to ${req.url}
+2023-07-19 09:59:28 info : Received ${req.method} request to ${req.url}
+2023-07-19 09:59:50 info : Received ${req.method} request to ${req.url}
+2023-07-19 09:59:54 info : Received ${req.method} request to ${req.url}
+2023-07-19 10:00:04 info : Received ${req.method} request to ${req.url}
+2023-07-19 10:06:20 info : Received POST request to /login
+2023-07-19 10:06:44 info : Received GET request to /logout
+2023-07-19 10:13:02 info : Received POST request to /login
+2023-07-19 10:13:24 info : Received GET request to /logout
+2023-07-19 10:17:40 info : Received POST request to /login
+2023-07-19 10:17:58 info : Received POST request to /login
+2023-07-19 10:18:16 info : Received GET request to /logout
+2023-07-19 10:23:24 info : Received POST request to /register
+2023-07-19 10:26:01 info : Received POST request to /login
+2023-07-19 10:26:09 info : Received POST request to /login
+2023-07-19 10:26:10 info : Received POST request to /login
+2023-07-19 10:26:15 info : Received POST request to /login
+19-07-2023 10:46:06 info : Received POSTrequest to /register
+19-07-2023 10:46:06 info : Recived registeration request for user with email: jadeja@gmail.com
+19-07-2023 10:46:06 info : Registeration succesfull for user with email: jadeja@gmail.com
+19-07-2023 10:46:38 info : Received GETrequest to /logout
+19-07-2023 10:46:38 info : User with sesssion token undefined logged out
+19-07-2023 10:46:49 info : Received POSTrequest to /login
+19-07-2023 10:46:49 info : User jadeja@gmail.com logged in 
+19-07-2023 10:47:12 info : Received GETrequest to /logout
+19-07-2023 10:47:12 info : User with sesssion token undefined logged out
+19-07-2023 10:47:33 info : Received POSTrequest to /login
+19-07-2023 10:47:33 info : User sravan@gmail.com logged in 
+19-07-2023 10:47:45 info : Received GETrequest to /logout
+19-07-2023 10:47:45 info : User with sesssion token undefined logged out
+19-07-2023 10:48:31 info : Received POSTrequest to /register
+19-07-2023 10:48:31 info : Recived registeration request for user with email: kohli@gmail.com
+19-07-2023 10:48:31 info : Registeration succesfull for user with email: kohli@gmail.com
+19-07-2023 10:49:02 info : Received POSTrequest to /login
+19-07-2023 10:49:02 error : Invalid login credentials
+19-07-2023 10:49:17 info : Received POSTrequest to /login
+19-07-2023 10:49:17 info : User kohli@gmail.com logged in 
+19-07-2023 10:49:26 info : Received GETrequest to /logout
+19-07-2023 10:49:26 info : User with sesssion token undefined logged out
+19-07-2023 11:04:24 info : Received POSTrequest to /login
+19-07-2023 11:04:24 info : User sravan@gmail.com logged in 
+19-07-2023 11:04:35 info : Received GETrequest to /logout
+19-07-2023 11:04:35 info : User with sesssion token undefined logged out
+19-07-2023 11:17:40 info : Received POSTrequest to /login
+19-07-2023 11:17:40 info : User sravan@gmail.com logged in 
+19-07-2023 11:17:50 info : Received GETrequest to /logout
+19-07-2023 11:17:50 info : User with sesssion token undefined logged out
+19-07-2023 11:32:30 info : Received POSTrequest to /register
+19-07-2023 11:32:30 info : Recived registeration request for user with email: ravichandran@gmail.com
+19-07-2023 11:32:30 info : Registeration succesfull for user with email: ravichandran@gmail.com
+19-07-2023 11:33:01 info : Received POSTrequest to /login
+19-07-2023 11:33:01 info : User ravichandran@gmail.com logged in 
+19-07-2023 11:33:33 info : Received GETrequest to /logout
+19-07-2023 11:33:33 error : No session Token found during logout
+19-07-2023 11:33:35 info : Received GETrequest to /logout
+19-07-2023 11:33:35 error : No session Token found during logout
+19-07-2023 11:33:36 info : Received GETrequest to /logout
+19-07-2023 11:33:36 error : No session Token found during logout
+19-07-2023 11:33:52 info : Received GETrequest to /logout
+19-07-2023 11:33:52 error : No session Token found during logout
+19-07-2023 11:33:53 info : Received GETrequest to /logout
+19-07-2023 11:33:53 error : No session Token found during logout
+19-07-2023 11:33:54 info : Received GETrequest to /logout
+19-07-2023 11:33:54 error : No session Token found during logout
+19-07-2023 11:33:55 info : Received GETrequest to /logout
+19-07-2023 11:33:55 error : No session Token found during logout
+19-07-2023 11:33:57 info : Received GETrequest to /logout
+19-07-2023 11:33:57 error : No session Token found during logout
+19-07-2023 11:38:02 info : Received GETrequest to /logout
+19-07-2023 11:38:02 error : No session Token found during logout
+19-07-2023 11:38:03 info : Received GETrequest to /logout
+19-07-2023 11:38:03 error : No session Token found during logout
+19-07-2023 12:02:23 info : Received POSTrequest to /login
+19-07-2023 12:02:23 info : User ravichandran@gmail.com logged in 
+19-07-2023 12:02:27 info : Received GETrequest to /logout
+19-07-2023 12:02:27 error : No session Token found during logout
+19-07-2023 12:03:17 info : Received GETrequest to /logout
+19-07-2023 12:03:17 error : No session Token found during logout
+19-07-2023 12:03:18 info : Received GETrequest to /logout
+19-07-2023 12:03:18 error : No session Token found during logout
+19-07-2023 12:03:19 info : Received GETrequest to /logout
+19-07-2023 12:03:19 error : No session Token found during logout
+19-07-2023 12:03:20 info : Received GETrequest to /logout
+19-07-2023 12:03:20 error : No session Token found during logout
+19-07-2023 12:03:20 info : Received GETrequest to /logout
+19-07-2023 12:03:20 error : No session Token found during logout
+19-07-2023 12:03:31 info : Received GETrequest to /logout
+19-07-2023 12:03:31 error : No session Token found during logout
+19-07-2023 12:09:22 info : Received POSTrequest to /register
+19-07-2023 12:09:22 info : Recived registeration request for user with email: sanjay@gmail.com
+19-07-2023 12:09:22 info : Registeration succesfull for user with email: sanjay@gmail.com
+19-07-2023 12:09:37 info : Received POSTrequest to /login
+19-07-2023 12:09:37 info : User sanjay@gmail.com logged in 
+19-07-2023 12:10:20 info : Received GETrequest to /logout
+19-07-2023 12:10:20 error : No session Token found during logout
+19-07-2023 12:10:22 info : Received GETrequest to /logout
+19-07-2023 12:10:22 error : No session Token found during logout
+19-07-2023 12:10:23 info : Received GETrequest to /logout
+19-07-2023 12:10:23 error : No session Token found during logout
+19-07-2023 12:10:24 info : Received GETrequest to /logout
+19-07-2023 12:10:24 error : No session Token found during logout
+19-07-2023 12:10:25 info : Received GETrequest to /logout
+19-07-2023 12:10:25 error : No session Token found during logout
+19-07-2023 12:10:25 info : Received GETrequest to /logout
+19-07-2023 12:10:25 error : No session Token found during logout
+19-07-2023 12:10:26 info : Received GETrequest to /logout
+19-07-2023 12:10:26 error : No session Token found during logout
+19-07-2023 12:10:26 info : Received GETrequest to /logout
+19-07-2023 12:10:26 error : No session Token found during logout
+19-07-2023 12:10:48 info : Received GETrequest to /logout
+19-07-2023 12:10:48 error : No session Token found during logout
+19-07-2023 12:10:56 info : Received GETrequest to /logout
+19-07-2023 12:10:56 error : No session Token found during logout
+19-07-2023 12:18:03 info : Received POSTrequest to /login
+19-07-2023 12:18:03 info : User ravichandran@gmail.com logged in 
+19-07-2023 12:18:16 info : Received GETrequest to /logout
+19-07-2023 12:18:16 error : No session Token found during logout
+19-07-2023 12:18:17 info : Received GETrequest to /logout
+19-07-2023 12:18:17 error : No session Token found during logout
+19-07-2023 12:18:18 info : Received GETrequest to /logout
+19-07-2023 12:18:18 error : No session Token found during logout
+19-07-2023 12:18:19 info : Received GETrequest to /logout
+19-07-2023 12:18:19 error : No session Token found during logout
+19-07-2023 12:22:59 info : Received GETrequest to /logout
+19-07-2023 12:22:59 error : No session Token found during logout
+19-07-2023 12:23:00 info : Received GETrequest to /logout
+19-07-2023 12:23:00 error : No session Token found during logout
+19-07-2023 12:23:10 info : Received GETrequest to /logout
+19-07-2023 12:23:10 error : No session Token found during logout
+19-07-2023 12:23:22 info : Received POSTrequest to /login
+19-07-2023 12:23:22 info : User ravichandran@gmail.com logged in 
+19-07-2023 12:23:36 info : Received GETrequest to /logout
+19-07-2023 12:23:36 error : No session Token found during logout
+19-07-2023 12:23:37 info : Received GETrequest to /logout
+19-07-2023 12:23:37 error : No session Token found during logout
+19-07-2023 12:30:26 info : Received POSTrequest to /login
+19-07-2023 12:30:26 info : User sravan@gmail.com logged in 
+19-07-2023 12:30:36 info : Received GETrequest to /logout
+19-07-2023 12:30:36 error : No session Token found during logout
+19-07-2023 12:30:37 info : Received GETrequest to /logout
+19-07-2023 12:30:37 error : No session Token found during logout
+19-07-2023 12:30:38 info : Received GETrequest to /logout
+19-07-2023 12:30:38 error : No session Token found during logout
+19-07-2023 12:30:39 info : Received GETrequest to /logout
+19-07-2023 12:30:39 error : No session Token found during logout
+19-07-2023 12:30:40 info : Received GETrequest to /logout
+19-07-2023 12:30:40 error : No session Token found during logout
+19-07-2023 12:30:41 info : Received GETrequest to /logout
+19-07-2023 12:30:41 error : No session Token found during logout
+19-07-2023 12:30:42 info : Received GETrequest to /logout
+19-07-2023 12:30:42 error : No session Token found during logout
+19-07-2023 12:34:30 info : Received POSTrequest to /login
+19-07-2023 12:34:30 info : User sravan@gmail.com logged in 
+19-07-2023 12:34:42 info : Received GETrequest to /logout
+19-07-2023 12:34:42 error : No session Token found during logout
+19-07-2023 12:34:44 info : Received GETrequest to /logout
+19-07-2023 12:34:44 error : No session Token found during logout
+19-07-2023 12:45:53 info : Received POSTrequest to /login
+19-07-2023 12:45:53 info : User sravan@gmail.com logged in 
+19-07-2023 12:46:20 info : Received GETrequest to /logout
+19-07-2023 12:46:20 error : No session Token found during logout
+19-07-2023 12:46:23 info : Received GETrequest to /logout
+19-07-2023 12:46:23 error : No session Token found during logout
+19-07-2023 13:26:33 info : Received POSTrequest to /login
+19-07-2023 13:26:33 info : User sravan@gmail.com logged in 
+19-07-2023 13:31:08 info : Received POSTrequest to /login
+19-07-2023 13:31:08 info : User sravan@gmail.com logged in 
+19-07-2023 14:22:12 info : Received POSTrequest to /login
+19-07-2023 14:22:12 error : Invalid login credentials
+19-07-2023 14:22:16 info : Received POSTrequest to /login
+19-07-2023 14:22:16 info : User sravan@gmail.com logged in 
+19-07-2023 14:26:27 info : Received GETrequest to /logout
+19-07-2023 14:26:27 error : No session Token found during logout
+19-07-2023 14:26:28 info : Received GETrequest to /logout
+19-07-2023 14:26:28 error : No session Token found during logout
+19-07-2023 14:26:29 info : Received GETrequest to /logout
+19-07-2023 14:26:29 error : No session Token found during logout
+19-07-2023 14:26:30 info : Received GETrequest to /logout
+19-07-2023 14:26:30 error : No session Token found during logout
+19-07-2023 14:33:42 info : Received GETrequest to /logout
+19-07-2023 14:33:42 error : No session Token found during logout
+19-07-2023 14:35:28 info : Received POSTrequest to /login
+19-07-2023 14:35:28 info : User sravan@gmail.com logged in 
+19-07-2023 14:35:45 info : Received GETrequest to /logout
+19-07-2023 14:35:45 error : No session Token found during logout
+19-07-2023 14:35:47 info : Received GETrequest to /logout
+19-07-2023 14:35:47 error : No session Token found during logout
+19-07-2023 14:48:39 info : Received GETrequest to /logout
+19-07-2023 14:48:39 error : No session Token found during logout
+19-07-2023 15:08:35 info : Received GETrequest to /logout
+19-07-2023 15:08:35 error : No session Token found during logout
+19-07-2023 15:09:04 info : Received POSTrequest to /login
+19-07-2023 15:09:04 info : User sravan@gmail.com logged in 
+19-07-2023 15:09:47 info : Received GETrequest to /logout
+19-07-2023 15:09:47 error : No session Token found during logout
+19-07-2023 15:11:46 info : Received GETrequest to /logout
+19-07-2023 15:11:46 error : No session Token found during logout
+19-07-2023 15:11:47 info : Received GETrequest to /logout
+19-07-2023 15:11:47 error : No session Token found during logout
+19-07-2023 15:11:48 info : Received GETrequest to /logout
+19-07-2023 15:11:48 error : No session Token found during logout
+19-07-2023 15:11:48 info : Received GETrequest to /logout
+19-07-2023 15:11:48 error : No session Token found during logout
+19-07-2023 15:11:49 info : Received GETrequest to /logout
+19-07-2023 15:11:49 error : No session Token found during logout
+19-07-2023 15:11:49 info : Received GETrequest to /logout
+19-07-2023 15:11:49 error : No session Token found during logout
+19-07-2023 15:11:50 info : Received GETrequest to /logout
+19-07-2023 15:11:50 error : No session Token found during logout
+19-07-2023 15:11:50 info : Received GETrequest to /logout
+19-07-2023 15:11:50 error : No session Token found during logout
+19-07-2023 15:11:50 info : Received GETrequest to /logout
+19-07-2023 15:11:50 error : No session Token found during logout
+19-07-2023 15:18:28 info : Received GETrequest to /logout
+19-07-2023 15:18:28 error : No session Token found during logout
+19-07-2023 15:18:33 info : Received GETrequest to /logout
+19-07-2023 15:18:33 error : No session Token found during logout
+19-07-2023 15:18:33 info : Received GETrequest to /logout
+19-07-2023 15:18:33 error : No session Token found during logout
+19-07-2023 15:55:06 info : Received POSTrequest to /login
+19-07-2023 15:55:06 info : User sravan@gmail.com logged in 
+19-07-2023 15:55:48 info : Received GETrequest to /logout
+19-07-2023 15:55:48 error : No session Token found during logout
+19-07-2023 16:02:06 info : Received GETrequest to /logout
+19-07-2023 16:02:06 error : No session Token found during logout
+19-07-2023 16:02:07 info : Received GETrequest to /logout
+19-07-2023 16:02:07 error : No session Token found during logout
+19-07-2023 16:02:08 info : Received GETrequest to /logout
+19-07-2023 16:02:08 error : No session Token found during logout
+19-07-2023 16:03:04 info : Received POSTrequest to /login
+19-07-2023 16:03:04 info : User sravan@gmail.com logged in 
+19-07-2023 16:03:51 info : Received GETrequest to /logout
+19-07-2023 16:03:51 error : No session Token found during logout
+19-07-2023 16:03:52 info : Received GETrequest to /logout
+19-07-2023 16:03:52 error : No session Token found during logout
+19-07-2023 16:19:48 info : Received GETrequest to /logout
+19-07-2023 16:19:48 error : No session Token found during logout
+19-07-2023 16:20:25 info : Received POSTrequest to /login
+19-07-2023 16:20:25 info : User sravan@gmail.com logged in 
+19-07-2023 16:20:57 info : Received GETrequest to /logout
+19-07-2023 16:20:57 info : User sravan@gmail.com logged out
+19-07-2023 16:23:44 info : Received POSTrequest to /register
+19-07-2023 16:23:44 info : Recived registeration request for user with email: rohith@gmail.com
+19-07-2023 16:23:44 info : Registeration succesfull for user with email: rohith@gmail.com
+19-07-2023 16:23:56 info : Received POSTrequest to /login
+19-07-2023 16:23:56 info : User rohith@gmail.com logged in 
+19-07-2023 16:24:14 info : Received GETrequest to /logout
+19-07-2023 16:24:14 info : User rohith@gmail.com logged out
+19-07-2023 16:31:40 info : Received POSTrequest to /login
+19-07-2023 16:31:40 info : User sravan@gmail.com logged in 
+19-07-2023 16:31:44 info : Received GETrequest to /logout
+19-07-2023 16:31:44 info : User sravan@gmail.com logged out
+19-07-2023 17:09:58 info : connected to MongoDB
+19-07-2023 17:11:12 info : Received OPTIONSrequest to /register
+19-07-2023 17:11:12 info : Received POSTrequest to /register
+19-07-2023 17:11:12 info : Received POSTrequest to /register
+19-07-2023 17:11:16 info : Received POSTrequest to /register
+19-07-2023 17:11:16 info : Received POSTrequest to /register
+19-07-2023 17:11:18 info : Received OPTIONSrequest to /register
+19-07-2023 17:11:18 info : Received POSTrequest to /register
+19-07-2023 17:11:18 info : Received POSTrequest to /register
+19-07-2023 17:11:51 info : Received OPTIONSrequest to /register
+19-07-2023 17:11:51 info : Received POSTrequest to /register
+19-07-2023 17:11:51 info : Received POSTrequest to /register
+19-07-2023 17:11:52 info : Received POSTrequest to /register
+19-07-2023 17:11:52 info : Received POSTrequest to /register
+19-07-2023 17:11:52 info : Received POSTrequest to /register
+19-07-2023 17:11:52 info : Received POSTrequest to /register
+19-07-2023 17:22:33 info : Received POSTrequest to /register
+19-07-2023 17:22:33 info : Received POSTrequest to /register
+19-07-2023 17:22:33 info : Received POSTrequest to /register
+19-07-2023 17:22:33 info : Received POSTrequest to /register
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /register
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /register
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /register
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /login
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /register
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /register
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /login
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /login
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /login
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /login
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /login
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /login
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /login
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /login
+19-07-2023 17:22:33 info : Received OPTIONSrequest to /login
+19-07-2023 17:23:03 info : Received OPTIONSrequest to /register
+19-07-2023 17:23:03 info : Received POSTrequest to /register
+19-07-2023 17:23:03 info : Received POSTrequest to /register
+19-07-2023 17:23:24 info : Received OPTIONSrequest to /register
+19-07-2023 17:23:24 info : Received POSTrequest to /register
+19-07-2023 17:23:24 info : Received POSTrequest to /register
+19-07-2023 17:28:36 info : connected to MongoDB
+19-07-2023 17:29:00 info : Received OPTIONSrequest to /register
+19-07-2023 17:29:00 info : Received POSTrequest to /register
+19-07-2023 17:29:00 info : Received POSTrequest to /register
+19-07-2023 17:35:22 info : Received OPTIONSrequest to /register
+19-07-2023 17:35:22 info : Received POSTrequest to /register
+19-07-2023 17:35:22 info : Received POSTrequest to /register
+19-07-2023 17:36:43 info : Received OPTIONSrequest to /register
+19-07-2023 17:36:43 info : Received POSTrequest to /register
+19-07-2023 17:36:43 info : Received POSTrequest to /register
+19-07-2023 17:37:02 info : Received OPTIONSrequest to /register
+19-07-2023 17:37:02 info : Received POSTrequest to /register
+19-07-2023 17:37:02 info : Received POSTrequest to /register
+19-07-2023 17:42:53 info : Received OPTIONSrequest to /register
+19-07-2023 17:42:53 info : Received POSTrequest to /register
+19-07-2023 17:42:53 info : Received POSTrequest to /register
+19-07-2023 17:48:07 info : Received OPTIONSrequest to /register
+19-07-2023 17:48:07 info : Received POSTrequest to /register
+19-07-2023 17:48:07 info : Received POSTrequest to /register
+19-07-2023 17:48:09 info : Received POSTrequest to /register
+19-07-2023 17:48:09 info : Received POSTrequest to /register
+19-07-2023 17:49:20 info : Received OPTIONSrequest to /register
+19-07-2023 17:49:20 info : Received POSTrequest to /register
+19-07-2023 17:49:20 info : Received POSTrequest to /register
+19-07-2023 17:57:43 info : Received OPTIONSrequest to /register
+19-07-2023 17:57:43 info : Received POSTrequest to /register
+19-07-2023 17:57:43 info : Received POSTrequest to /register
+19-07-2023 18:01:09 info : Received OPTIONSrequest to /register
+19-07-2023 18:01:09 info : Received POSTrequest to /register
+19-07-2023 18:01:09 info : Received POSTrequest to /register
+19-07-2023 18:01:10 info : Received POSTrequest to /register
+19-07-2023 18:01:10 info : Received POSTrequest to /register
+19-07-2023 18:07:48 info : connected to MongoDB
+19-07-2023 18:08:29 info : Recived registeration request for user with email: mayank@gmail.com
+19-07-2023 18:08:29 info : Registeration succesfull for user with email: mayank@gmail.com
+19-07-2023 18:08:59 info : User mayank@gmail.com logged in 
+19-07-2023 18:08:59 info : SessionToken generated for user with email:mayank@gmail.com
+19-07-2023 18:09:05 info : User mayank@gmail.com logged out
+19-07-2023 18:09:32 error : Invalid login credentials
+19-07-2023 18:09:45 info : User sravan@gmail.com logged in 
+19-07-2023 18:09:45 info : SessionToken generated for user with email:sravan@gmail.com
+19-07-2023 18:10:02 info : User sravan@gmail.com logged out
+20-07-2023 10:18:04 info : Recived registeration request for user with email: sravan@gmail.com
+20-07-2023 10:18:04 error : User already exists
+20-07-2023 10:19:03 info : Recived registeration request for user with email: sravan@gmail.com
+20-07-2023 10:19:43 info : Recived registeration request for user with email: rishab@gmail.com
+20-07-2023 10:19:43 info : Registeration succesfull for user with email: rishab@gmail.com
+20-07-2023 10:19:53 info : User rishab@gmail.com logged in 
+20-07-2023 10:19:53 info : SessionToken generated for user with email:rishab@gmail.com
+20-07-2023 10:20:12 info : User rishab@gmail.com logged out
