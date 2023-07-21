@@ -29,6 +29,16 @@ const mongoURI ='mongodb://localhost:27017/mydatabse';
 // const SessionToken = '123456'
 const jwtSecret = 'sravan123@';
 
+
+class CustomError extends Error{
+    constructor(message, statusCode){
+        super(message);
+        this.statusCode = statusCode;
+        this.name = this.constructor.name;
+        Error.captureStackTrace(this, this.constructor);
+    }
+}
+
 const logger= createLogger({
     level:'info',
     format:format.combine(
@@ -86,13 +96,13 @@ app.post('/register',async (req,res)=>{
     const {firstName, lastName, phoneNumber,email,password,address} = req.body;
     logger.info(`Recived registeration request for user with email: ${email}`);
     if(!firstName|| !lastName || !phoneNumber || !email || !password || !address){
-      return res.status(400).json({error:'All fields are required'});
-  
+     throw new CustomError('All fields are required', 400);
     }
     const existingUser = await User.findOne({email});
     if(existingUser){
         logger.error('User already exists');
-        return res.status(400).json({ error: 'User already exists' });
+        throw new CustomError('User already exists',400);
+        // return res.status(400).json({ error: 'User already exists' });
     }
     const newUser = new User({
         firstName,
@@ -181,8 +191,17 @@ app.post('/login', async (req, res)=>{
   });
 
   app.use((err,req,res,next)=>{
-    logger.error(err.stack);
-    res.status(500).json({error:'Internal server error'});
+    let statusCode = 500;
+    let message = 'Internal server error';
+
+    if(err instanceof CustomError){
+        statusCode = err.statusCode;
+        message = err.message;
+    }
+    console.error(err)
+    res.status(statusCode).json({status: 'error',message});
+    // logger.error(err.stack);
+    // res.status(500).json({error:'Internal server error'});
   });
 
   app.use((req,res)=>{
